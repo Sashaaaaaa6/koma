@@ -13,6 +13,10 @@ body {
   gap: 30px;
   margin-top: 80px;
   flex-wrap: wrap;
+  @media (max-width: 767px) {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 .location {
@@ -23,6 +27,12 @@ body {
   box-shadow: 0 15px 40px rgba(255, 105, 135, 0.15);
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  @media (max-width: 767px) {
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+    margin: 0 auto;
+  }
 }
 
 .location:hover {
@@ -127,6 +137,13 @@ body {
   cursor: pointer;
   margin: 5px;
   transition: 0.3s;
+  @media (max-width: 767px) {
+    display: block;
+    margin: 0 auto;
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
 }
 
 .btn.red {
