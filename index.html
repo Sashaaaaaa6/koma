@@ -163,12 +163,18 @@
     </section>
 
     <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="stylesheet" href="style4.css" />
     </head>
 
     <section class="gallery-section">
       <div class="gallery">
-        <img src="1.jpg" alt="Ice Cream 1" />
+        <picture>
+          <source srcset="mobile.webp" media="(min-width:0px)">
+          <source srcset="tablet.webp" media="(min-width:768px)">
+          <source srcset="1.jpg" media="(min-width:1200px)">
+           <img class="" src="./mobile.webp" alt="Ice Cream 1" />
+        </picture>
       </div>
 
       <div class="testimonial">

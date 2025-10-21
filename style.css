@@ -215,3 +215,8 @@ nav ul li a:hover {
   width: 150px;
   height: auto;
 }
+.gallery-section {
+  @media (max-width: 767px) {
+    width: 364px;
+  }
+}
