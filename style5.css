@@ -33,11 +33,10 @@ body {
     }
     margin: 0 auto;
   }
-  @media (min-width: 768pxpx) {
+  @media (min-width: 768px) {
     &:not(:last-child) {
       margin-bottom: 20px;
     }
-    display: flex;
     /* Rectangle 9 */
     width: 220px;
     height: 544px;
