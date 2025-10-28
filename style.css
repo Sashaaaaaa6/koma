@@ -220,3 +220,23 @@ nav ul li a:hover {
     width: 364px;
   }
 }
+.testimonial-p {
+  @media (max-width: 767px) {
+    color: rgba(0, 0, 0, 1);
+
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+}
+.testimonial {
+  @media (max-width: 767px) {
+    /* Rectangle 13 */
+    width: 280px;
+    height: 308px;
+    background: rgba(250, 250, 250, 1);
+  }
+}
